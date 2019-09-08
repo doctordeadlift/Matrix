@@ -9,7 +9,7 @@ public class Matrix {
 	private int[][] matrix;
 	
 	/**
-	 * @param matrix - specified matrix for processing
+	 * @param matrix specified matrix for processing
 	 */
 	public Matrix(int[][] matrix) {
 		this.matrix = matrix;
@@ -30,9 +30,9 @@ public class Matrix {
 	
 	/**
 	 * Sort specified matrix column by target line
-	 * @param start - first element in sort matrix
-	 * @param end - last element in sort matrix
-	 * @param k - target line
+	 * @param start first element in sort matrix
+	 * @param end last element in sort matrix
+	 * @param k target line
 	 */
 	public void columnQuickSort(int start, int end, int k) {
 		int s = start,
@@ -58,7 +58,7 @@ public class Matrix {
 	}
 	/**
 	 * Searching largest increase sequence in matrix 
-	 * @return - elements quantity of largest increase sequence
+	 * @return elements quantity of largest increase sequence
 	 */
 	public int largestIncreaseSequenceSearch() {
 		int count = 1,
@@ -91,7 +91,7 @@ public class Matrix {
 	}
 	/**
 	 * Shift matrix down
-	 * @param k - numbers of shift
+	 * @param k numbers of shift
 	 */
 	public void matrixDownShift(int k) {
 		int[] first = Arrays.copyOf(matrix[matrix.length -1], matrix[matrix.length -1].length);
